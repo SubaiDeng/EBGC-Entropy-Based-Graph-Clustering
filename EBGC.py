@@ -3,7 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import random
 from queue import Queue
-from dgl.data import LegacyTUDataset
+# from dgl.data import LegacyTUDataset
 
 
 class EBGC:
@@ -164,14 +164,14 @@ if __name__ == '__main__':
     random.seed(rand_seed)
     np.random.seed(rand_seed)
 
-    # # demo graph
-    # demo_edgelist = [(0, 1), (0, 3), (0, 2), (1, 2), (2, 3), (3, 5), (3, 6), (4, 5), (5, 6), (5, 7), (5, 8), (5, 9), (6, 11), (8, 9), (9, 11), (10, 11), (11, 13), (12, 13), (12, 14), (13, 14)]
-    # demo_graph = nx.Graph(demo_edgelist)
+    # demo graph
+    demo_edgelist = [(0, 1), (0, 3), (0, 2), (1, 2), (2, 3), (3, 5), (3, 6), (4, 5), (5, 6), (5, 7), (5, 8), (5, 9), (6, 11), (8, 9), (9, 11), (10, 11), (11, 13), (12, 13), (12, 14), (13, 14)]
+    demo_graph = nx.Graph(demo_edgelist)
 
-    # import Graph
-    dataset = LegacyTUDataset(name='NCI1')
-    graph_lists = dataset.graph_lists
-    demo_graph = graph_lists[1].to_networkx()
+    # # import Graph
+    # dataset = LegacyTUDataset(name='NCI1')
+    # graph_lists = dataset.graph_lists
+    # demo_graph = graph_lists[1].to_networkx()
 
     EBGC_cluster = EBGC()
     cluster_result = EBGC_cluster.fit(demo_graph)

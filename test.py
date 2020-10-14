@@ -1,9 +1,12 @@
 import numpy as np
 from queue import Queue
+from EBGC import EBGC
 
 print('hello world')
 a = [0, 2, 4]
 b = np.array((range(10)))
+
+t = EBGC()
 
 l = [3, 4, 5]
 q = Queue()
