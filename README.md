@@ -11,7 +11,14 @@ Paper: [Entropy-Based Graph Clustering: Application to Biological and Social Net
 2. If you find this repository useful, please star this repository  and cite the following paper:
 
    ```
-   @INPROCEEDINGS{6137324,  author={E. C. {Kenley} and Y. {Cho}},  booktitle={2011 IEEE 11th International Conference on Data Mining},   title={Entropy-Based Graph Clustering: Application to Biological and Social Networks},   year={2011},  volume={},  number={},  pages={1116-1121},}
+   @INPROCEEDINGS{6137324,  
+   author={E. C. {Kenley} and Y. {Cho}},  
+   booktitle={2011 IEEE 11th International Conference on Data Mining},   
+   title={Entropy-Based Graph Clustering: Application to Biological and Social Networks},   
+   year={2011},  
+   volume={},  
+   number={},  
+   pages={1116-1121},}
    ```
 
    
@@ -31,22 +38,22 @@ Paper: [Entropy-Based Graph Clustering: Application to Biological and Social Net
 
    Graph Clustering Result
 
-   ![fig1](.\result\fig1.png)
+   ![fig1](./result/fig1.png)
 
     Cluster Result
 
-   ![fig1_cluster](.\result\fig1_cluster.png)
+   ![fig1_cluster](./result/fig1_cluster.png)
 
 2. **NCI1 Dataset**
    We also perform the algorithm at NC1 dataset.
 
    Graph Clustering Result
 
-   ![fig2](.\result\fig2.png)
+   ![fig2](./result/fig2.png)
 
    Cluster Result
 
-   ![fig2_cluster](.\result\fig2_cluster.png)
+   ![fig2_cluster](./result/fig2_cluster.png)
 
 ## Usage
 
